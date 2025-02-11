@@ -187,6 +187,9 @@ class _CompletedWidgetState extends State<CompletedWidget> {
                         color: FlutterFlowTheme.of(context).primaryText,
                       ),
                       borderRadius: BorderRadius.circular(24.0),
+                      hoverBorderSide: BorderSide(
+                        color: FlutterFlowTheme.of(context).alternate,
+                      ),
                     ),
                   ),
                 ),
